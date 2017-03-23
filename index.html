@@ -16,7 +16,9 @@
       font-size:40px;
       vertical-align: center;
       line-height: 100px;
-      padding-left: 10px;
+    }
+    div.title > span{
+      margin-left: 10px;
     }
     div.footer{
       position: absolute;
@@ -35,14 +37,25 @@
     </style>
   </head>
   <body>
-    <div class="title">KSLinux Project Home</div>
+    <div class="title">
+      <span>KSLinux Project Home<span>
+    </div>
     <div class="main">
       <h1>Description</h1><hr/>
       <span>KSLinux is a destribution which is built with sources.All Packages are licensed with GPLv3, LGPLv3, MIT, Apache and BSD License.</span>
+      <br/><br/><br/>
+      <h2>ChangeLog</h2><hr/>
+      <span>2017-03-23: Built Stage-1 Environment</span><br/>
+      <span>2017-03-22: Add GUI-like configure script</span><br/>
+      <br/><br/><br/>
+      <h2>TODO</h2><hr/>
+      <span>Stage-1 System Image<span><br/>
+      <span>GUI-like Stage-1 build script<span><br/>
     </div>
     <div class="footer">
-        <span>&copy;Copyright KSLinux Foundation 2017<br/>
-        <span>All Rights Reserved</span>
+        <span>&copy;Copyright KSLinux Foundation 2017</span><br/>
+        <span>All Rights Reserved</span><br/>
+        <span>Contact:</span><a href="mailto:dev@kslinux.info">dev@kslinux.info</a><br/>
     </div>
   </body>
 </html>
